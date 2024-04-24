@@ -1,0 +1,33 @@
+
+sub {
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-contenido {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    text-align: left;
+    color: black;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+}
+
+table{
+    margin: auto;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+
+ }
+
+img{
+    border-radius: 2%;
+}
+footer {
+    background-color:gray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+}

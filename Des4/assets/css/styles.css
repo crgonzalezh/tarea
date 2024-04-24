@@ -1,0 +1,142 @@
+
+body {
+    background-color: #F8F9FA;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar {
+    background-color: #28a745;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Medium', sans-serif;
+    color: #fff;
+    margin-left: 1.5rem; 
+}
+
+.nav-link {
+    font-family: 'Roboto Light', sans-serif;
+    color: #fff;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #707070;
+}
+
+.card-title {
+    color: #28a745;
+}
+
+.card-text {
+    color: #212529;
+}
+
+.textcard1 {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 20px;
+    color: #212529;
+
+}
+
+.textcard2 {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 16px;
+    color: #707070;
+
+}
+
+.textcard3 {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 13px;
+    color: #707070;
+
+}
+.prices {
+    text-align: right;
+}
+
+.price {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 16px;
+}
+
+.larger {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 20px;
+    color: #28A745;
+}
+
+.form-container {
+    background-color: #28a745; /* Color de la navbar */
+    padding: 1rem;
+    width: 100%; /* 100% del ancho de la ventana */
+}
+.form-group {
+    background-color: #fff; /* Fondo blanco para las celdas */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.form-group legend {
+    color: #fff; /* Letra blanca para la leyenda */
+    font-weight: 500; /* Texto en medio */
+    text-align: center; /* Centro del texto */
+    position: absolute;
+    top: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff; /* Fondo blanco para la leyenda */
+    padding: 0 0.5rem;
+}
+.leyenda {
+    font-family: 'Roboto Medium', sans-serif;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.form-container .btn {
+    padding: 0.25rem 0.5rem;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.footer {
+    background-color: #f0f0f0; /* Color de fondo del footer */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Altura deseada del footer */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre las líneas */
+}
+
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 1;
+        align-content: center;
+    }
+}
